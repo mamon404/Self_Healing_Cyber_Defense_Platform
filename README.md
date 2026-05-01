@@ -49,7 +49,31 @@ An autonomous cybersecurity system that detects threats, enriches them with thre
 ```
 
 ---
+## Folder Structure
+```
+self_healing_cyber_platform/
+│
+├── monitoring/            # Packet sniffer + metrics exporter
+├── detection/             # Signature & anomaly detection engines
+├── intel/                 # Threat intelligence (AbuseIPDB, OTX, ThreatMiner)
+├── orchestrator/          # Decision engine + API
+├── response/              # Response actions (block IP, notify, snapshot)
+├── healing/               # Self-healing logic
+├── dashboard/             # Flask web dashboard UI
+├── config/                # Configuration files
+├── logs/                  # Runtime logs
+│   ├── alerts.jsonl
+│   ├── alerts_enriched.jsonl
+│   ├── actions.log
+|   ├── detection.log
+│   └── snapshots/
+│
+├── main.sh                # Start all services
+├── requirements.txt       # Dependencies
+├── README.md              # Documentation
+├── .env                   # Environment template
 
+```
 ## ⚡ Features
 
 * 🔍 Real-time attack detection
@@ -66,7 +90,7 @@ An autonomous cybersecurity system that detects threats, enriches them with thre
 > Add your screenshot here
 
 ```id="img1"
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dash.png)
 ```
 
 ---
