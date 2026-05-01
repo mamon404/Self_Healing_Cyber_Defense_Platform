@@ -90,7 +90,7 @@ self_healing_cyber_platform/
 > Add your screenshot here
 
 ```id="img1"
-![Dashboard](dash.png)
+![Dashboard](Dashbo.png)
 ```
 
 ---
