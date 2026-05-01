@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Overview
+## 🚀 Overvie
 
 An autonomous cybersecurity system that detects threats, enriches them with threat intelligence, evaluates risk, and performs automated response and recovery in real time.
 
