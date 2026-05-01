@@ -1,0 +1,9 @@
+name: DDoS Response
+conditions:
+  severity: critical
+  rule_contains: ddos
+actions:
+  - isolate_interface
+  - block_ip
+  - collect_snapshot
+  - notify_admin

@@ -1,0 +1,10 @@
+- id: bruteforce_ssh
+  description: Detect repeated failed SSH authentication attempts
+  source: logs
+  match:
+    type: regex
+    pattern: "Failed password"
+  window_seconds: 60
+  threshold: 5
+  severity: high
+

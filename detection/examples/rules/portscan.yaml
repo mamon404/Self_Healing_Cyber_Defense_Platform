@@ -1,0 +1,11 @@
+- id: portscan_udp
+  description: Many UDP packets observed (simple threshold)
+  source: packets
+  condition:
+    proto: "UDP"
+    op: "gt"
+    value: 100
+  window_seconds: 60
+  threshold: 1
+  severity: medium
+

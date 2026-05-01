@@ -1,0 +1,7 @@
+conditions:
+  rule_contains: "manual_test_block"
+actions:
+  - block_ip: {}
+  - notify_admin: {}
+  - restart_service:
+      service: "ssh"

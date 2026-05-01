@@ -1,0 +1,9 @@
+conditions:
+  rule_contains: "bruteforce_ssh"   # example
+actions:
+  - collect_snapshot:
+      tag: "pre_remediation"
+  - block_ip: {}
+  - notify_admin: {}
+  - # if something fails, orchestrator's rollback_stack will contain unblock_ip
+

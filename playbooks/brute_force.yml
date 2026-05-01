@@ -1,0 +1,9 @@
+name: Bruteforce Response
+conditions:
+  severity: high
+  rule_contains: bruteforce
+actions:
+  - block_ip
+  - collect_snapshot
+  - notify_admin
+  - restart_service
