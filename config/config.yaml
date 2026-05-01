@@ -1,0 +1,14 @@
+app:
+  host: 127.0.0.1
+  port: 5000
+  debug: true
+
+orchestrator:
+  host: "127.0.0.1"
+  port: 9000
+  dry_run_default: true
+  max_retries: 3
+  retry_backoff_sec: 2
+  max_parallel: 4
+
+log_file: /tmp/test_auth.log
