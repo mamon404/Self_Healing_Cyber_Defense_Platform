@@ -10,7 +10,7 @@
 
 ## 🚀 Overview
 
-An autonomous cybersecurity system that detects threats, enriches them with threat intelligence, evaluates risk, and performs automated response and recovery in real time.
+An autonomous cybersecurity system designed to continuously monitor, detect, and respond to security threats in real time by integrating multiple layers of intelligence and automation. It not only identifies suspicious activities from system logs and network traffic but also enriches these events using external threat intelligence sources to provide deeper context such as reputation, origin, and historical behavior. The platform evaluates each detected threat through a risk-based decision engine that applies predefined policies and dynamic scoring to determine the severity and appropriate course of action. Based on this evaluation, it automatically executes response mechanisms including blocking malicious IP addresses, notifying administrators, collecting forensic snapshots, and initiating recovery processes to maintain system stability. By combining detection, enrichment, decision-making, and automated response into a unified workflow, the system demonstrates a proactive and self-healing approach to modern cybersecurity challenges.
 
 ---
 
@@ -87,11 +87,10 @@ self_healing_cyber_platform/
 
 ## 🖥️ Dashboard Preview
 
-> Add your screenshot here
+The dashboard provides detailed system information including CPU usage, memory status, hostname, IP address, MAC address, operating system details, and total memory usage. It also displays real-time system performance metrics and includes an automated feature that restarts the system every 5 seconds for continuous monitoring and recovery.
 
-```id="img1"
-![Dashboard](Dashbo.png)
-```
+![Dashboard](screenshots/dashboard.png)
+
 
 ---
 
