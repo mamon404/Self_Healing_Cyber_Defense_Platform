@@ -151,10 +151,8 @@ chmod +x main.sh
 # 🧪 Attack Simulation
 
 ## ⚠️ Educational Purpose Only
-
 This project is developed strictly for educational and research purposes.
 All attack simulations are performed in a controlled environment and should not be used on real systems without proper authorization.
-Note:-
 
 ### Inject another terminal 
 ```
