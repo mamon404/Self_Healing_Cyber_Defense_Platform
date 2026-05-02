@@ -60,6 +60,8 @@ An autonomous cybersecurity system designed to continuously monitor, detect, and
                 |    Self-Healing      |
                 +----------------------+
 ```
+<img width="853" height="1280" alt="Workflow 1" src="https://github.com/user-attachments/assets/06e43d20-d02a-4241-8b6b-877f0897f9e7" />
+
 # 💻 Tech Stack
 ```
 Python
