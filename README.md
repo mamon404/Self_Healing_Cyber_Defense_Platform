@@ -5,6 +5,19 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Security](https://img.shields.io/badge/Cybersecurity-Automation-red)
+![Platform](https://img.shields.io/badge/Platform-Linux-black)
+![OS](https://img.shields.io/badge/Tested%20on-Kali%20Linux-informational)
+![API](https://img.shields.io/badge/API-REST-blueviolet)
+![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus-orange)
+![Logs](https://img.shields.io/badge/Logs-JSONL-lightgrey)
+![Threat-Intel](https://img.shields.io/badge/Threat%20Intel-AbuseIPDB%20%7C%20OTX-blue)
+![Automation](https://img.shields.io/badge/Automation-Self--Healing-critical)
+![Firewall](https://img.shields.io/badge/Firewall-nftables-important)
+![Dashboard](https://img.shields.io/badge/Dashboard-Flask%20UI-success)
+![Project](https://img.shields.io/badge/Project-Type%20Cybersecurity-blue)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
+![Open%20Source](https://img.shields.io/badge/Open%20Source-Yes-success)
+![PRs](https://img.shields.io/badge/PRs-Welcome-blue)
 
 ---
 
