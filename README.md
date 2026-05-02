@@ -106,7 +106,7 @@ self_healing_cyber_platform/
 
 ```bash id="inst1"
 
-git clone https://github.com/your-username/self_healing_cyber_platform.git
+https://github.com/mamon404/Self_Healing_Cyber_Defense_Platform.git
 cd self_healing_cyber_platform
 
 ```
@@ -138,7 +138,7 @@ SLACK_WEBHOOK_URL=your_webhook
 
 ---
 
-##  Permission 
+#  Permission 
 
 ```bash id="run1"
 chmod +x main.sh
