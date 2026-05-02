@@ -345,6 +345,69 @@ Log Injection → Detection Engine → Alert Generation
   * restart_service
 
 ---
+## 🌐 API Endpoints Overview
+
+The platform exposes a set of robust and well-structured RESTful API endpoints through the Orchestrator service, enabling seamless interaction between different components of the system. These endpoints allow external systems, administrators, and automated processes to monitor system health, submit security alerts, and retrieve real-time performance metrics. Designed with scalability and reliability in mind, the API layer plays a critical role in ensuring efficient communication across the detection, intelligence, decision-making, and response modules.
+
+### GET /health
+
+This endpoint is used to verify the operational status of the API service. It provides a quick and lightweight way to check whether the system is running correctly and is ready to accept requests. This is particularly useful for monitoring tools and automated health checks.
+
+### POST /run
+
+This endpoint accepts incoming security alerts and processes them through the decision engine. Based on the severity and contextual intelligence of the alert, the system evaluates the risk level and triggers appropriate automated response actions such as blocking malicious IPs, collecting system snapshots, notifying administrators, and initiating recovery procedures.
+
+### GET /metrics
+
+This endpoint provides detailed system monitoring data in Prometheus-compatible format. It includes key performance indicators such as CPU usage, memory consumption, and network statistics, enabling real-time observability and integration with monitoring dashboards.
+
+---
+
+## 🎯 Use Case
+
+This system is designed to proactively detect, analyze, and respond to critical real-world cybersecurity threats with high accuracy and automation, including:
+
+* SSH brute-force attacks targeting system access
+* Malicious or suspicious IP activity identified through threat intelligence
+* Unauthorized access attempts and privilege escalation attempts
+* Fully automated threat detection, decision-making, and response workflows
+
+---
+
+## 🚀 Future Improvements
+
+* Implement advanced machine learning and AI-driven anomaly detection for proactive threat identification
+* Integrate with real firewall systems to enable live blocking and eliminate dry_run limitations
+* Containerize the entire platform using Docker for scalable and portable deployment
+* Deploy the system on cloud platforms (AWS, GCP, Azure) for high availability and scalability
+* Enhance the dashboard with real-time analytics, visual insights, and interactive monitoring features
+* Integrate with enterprise SIEM solutions for centralized logging, correlation, and incident management
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided that proper attribution is given to the original author.
+
+---
+
+## 🤝 Contributing
+
+We strongly encourage contributions from the community to enhance and expand this project.
+
+If you would like to contribute:
+
+* Fork the repository to your GitHub account
+* Create a new feature or fix branch
+* Implement your changes with clear and clean code
+* Commit your changes with meaningful messages
+* Submit a pull request for review
+
+All contributions, whether small improvements or major features, are highly appreciated and help make this project better.
+
+## ⚠️ Note (Dashboard)
+
+The dashboard continuously monitors system performance and supports automated recovery actions to maintain system stability.
 
 
 
