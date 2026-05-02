@@ -18,6 +18,10 @@
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
 ![Open%20Source](https://img.shields.io/badge/Open%20Source-Yes-success)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-blue)
+![GitHub repo size](https://img.shields.io/github/repo-size/mamon404/Self_Healing_Cyber_Defense_Platform)
+![GitHub stars](https://img.shields.io/github/stars/mamon404/Self_Healing_Cyber_Defense_Platform)
+![GitHub forks](https://img.shields.io/github/forks/mamon404/Self_Healing_Cyber_Defense_Platform)
+![GitHub issues](https://img.shields.io/github/issues/mamon404/Self_Healing_Cyber_Defense_Platform)
 
 ---
 
